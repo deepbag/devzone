@@ -1,0 +1,129 @@
+.devzone-question-drawer-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 50;
+}
+
+.devzone-question-drawer-container {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  z-index: 50;
+}
+
+.devzone-question-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 50rem;
+  background-color: white;
+  box-shadow: -4px 0 6px -1px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.devzone-question-drawer-header {
+  padding: 0.5rem 1.5rem;
+  border-bottom: 1px solid var(--color-gray-200);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.devzone-question-drawer-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--color-gray-900);
+}
+
+.devzone-question-drawer-close {
+  background: none;
+  border: none;
+  color: var(--color-gray-400);
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+}
+
+.devzone-question-drawer-close:hover {
+  color: var(--color-gray-500);
+}
+
+.devzone-question-drawer-content {
+  padding: 1.5rem;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.devzone-question-drawer-section {
+  margin-bottom: 1.5rem;
+}
+
+.devzone-question-drawer-section h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-gray-900);
+  margin-bottom: 0.5rem;
+}
+
+.devzone-question-drawer-section p {
+  font-size: 1rem;
+  color: var(--color-gray-500);
+}
+
+.devzone-question-drawer-code-block {
+  position: relative; /* To position the button inside */
+  background-color: var(--color-gray-50);
+  padding: 1rem;
+  border-radius: 0.1rem;
+  overflow-x: auto;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.875rem;
+  color: var(--color-gray-800);
+  margin-top: 0.5rem;
+  border: 1px solid var(--color-gray-300);
+}
+
+/* Blurred effect */
+.blurred {
+  filter: blur(8px);
+  user-select: none;
+}
+
+/* Show Solution button */
+.show-solution-button {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+}
+
+.show-solution-button:hover {
+  background: #0056b3;
+}
+
+.devzone-question-drawer-table-name {
+  background-color: #fef9c3;
+  color: #854d0e;
+  padding: 6px 15px;
+  border-radius: 5px;
+  font-weight: 700;
+  border: 1px solid #fff58c;
+  margin-right: 10px;
+}
+
+.devzone-question-drawer-required-table {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

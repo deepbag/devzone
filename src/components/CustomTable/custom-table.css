@@ -1,0 +1,55 @@
+.rgx-custom-table-props-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #2a2a2a;
+}
+
+.rgx-custom-table-props-table-light {
+  background-color: #f6f8fa;
+}
+
+.rgx-custom-table-props-table th,
+.rgx-custom-table-props-table td {
+  padding: 8px 12px;
+  text-align: left;
+  border: 1px solid #444444;
+}
+
+.rgx-custom-table-props-table th {
+  background-color: #333333;
+  color: #f1f1f1;
+}
+
+.rgx-custom-table-props-table-light th {
+  background-color: #f6f8fa;
+  color: #101314;
+}
+
+.rgx-custom-table-props-table td {
+  color: #e1e1e1;
+}
+
+.rgx-custom-table-props-table-light td {
+  color: #101314;
+}
+
+.rgx-custom-table-props-table tr:hover {
+  background-color: #3c3c3c;
+}
+
+.rgx-custom-table-props-table-light tr:hover {
+  background-color: #ebeff5;
+}
+
+.rgx-custom-table-props-table tr:nth-child(even) {
+  background-color: #242424;
+}
+
+.rgx-custom-table-props-table-light tr:nth-child(even) {
+  background-color: #ececec;
+}
+
+.rgx-custom-table-link-text {
+  text-decoration: underline;
+  cursor: pointer;
+}
